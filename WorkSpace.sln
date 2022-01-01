@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1209
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tasks_C++", "Tasks_C++\AlgorythmTasks.vcxproj", "{1A0BB006-9743-45B5-89F0-BE1DAA761D7D}"
 EndProject
@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib", "Lib\Lib.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks_CSharp", "Tasks_CSharp\Tasks_CSharp.csproj", "{F417E016-5C9B-4CF8-AC74-129B146E5114}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "Geometry\Geometry.vcxproj", "{0651577A-31C3-4B0A-A7C5-74072179B074}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Brackets", "Brackets\Brackets.vcxproj", "{A31857E1-D89C-41AC-8BF1-01A6DB4D438D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "Geometry\Geometry.vcxproj", "{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,16 +95,6 @@ Global
 		{F417E016-5C9B-4CF8-AC74-129B146E5114}.Release|x64.Build.0 = Release|Any CPU
 		{F417E016-5C9B-4CF8-AC74-129B146E5114}.Release|x86.ActiveCfg = Release|Any CPU
 		{F417E016-5C9B-4CF8-AC74-129B146E5114}.Release|x86.Build.0 = Release|Any CPU
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Debug|x64.ActiveCfg = Debug|x64
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Debug|x64.Build.0 = Debug|x64
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Debug|x86.ActiveCfg = Debug|Win32
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Debug|x86.Build.0 = Debug|Win32
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Release|Any CPU.ActiveCfg = Release|Win32
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Release|x64.ActiveCfg = Release|x64
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Release|x64.Build.0 = Release|x64
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Release|x86.ActiveCfg = Release|Win32
-		{0651577A-31C3-4B0A-A7C5-74072179B074}.Release|x86.Build.0 = Release|Win32
 		{A31857E1-D89C-41AC-8BF1-01A6DB4D438D}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{A31857E1-D89C-41AC-8BF1-01A6DB4D438D}.Debug|x64.ActiveCfg = Debug|x64
 		{A31857E1-D89C-41AC-8BF1-01A6DB4D438D}.Debug|x64.Build.0 = Debug|x64
@@ -115,6 +105,16 @@ Global
 		{A31857E1-D89C-41AC-8BF1-01A6DB4D438D}.Release|x64.Build.0 = Release|x64
 		{A31857E1-D89C-41AC-8BF1-01A6DB4D438D}.Release|x86.ActiveCfg = Release|Win32
 		{A31857E1-D89C-41AC-8BF1-01A6DB4D438D}.Release|x86.Build.0 = Release|Win32
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Debug|x64.ActiveCfg = Debug|x64
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Debug|x64.Build.0 = Debug|x64
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Debug|x86.Build.0 = Debug|Win32
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Release|x64.ActiveCfg = Release|x64
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Release|x64.Build.0 = Release|x64
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Release|x86.ActiveCfg = Release|Win32
+		{C6ECBCEC-CED3-440C-89B2-E864CA4AE8EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
