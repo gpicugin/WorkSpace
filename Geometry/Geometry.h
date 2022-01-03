@@ -111,7 +111,7 @@ public:
         }
     }
     Matrix fSigm();
-    Matrix Round();
+    Matrix Round(double dec);
     std::vector<double>& operator[](int i) { return arr[i]; }
     Matrix& operator=(Matrix a);
     friend Matrix operator*(const Matrix a, const Matrix b);

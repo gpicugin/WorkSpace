@@ -151,13 +151,13 @@ Matrix Matrix::fSigm()
     return *this;
 }
 
-Matrix Matrix::Round()
+Matrix Matrix::Round(double dec)
 {
     for (size_t i = 0; i < m; i++)
     {
         for (size_t j = 0; j < n; j++)
         {
-            arr[i][j] = round(arr[i][j] * 1000) / 1000;
+            arr[i][j] = round(arr[i][j] * dec) / dec;
         }
     }
     return *this;
